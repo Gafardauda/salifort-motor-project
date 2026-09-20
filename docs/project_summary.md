@@ -2,11 +2,11 @@
 
 ## Issue / Problem
 
-Salifort Motors is facing a critical retention challenge. Employee exit trends are primarily driven by burnout caused by excessive monthly hours and high project volume, while under-utilization also appears to increase risk of attrition. These patterns suggest that turnover is not random, but associated with specific employee workload conditions and engagement gaps.
+Salifort Motors is facing a critical retention challenge. Employee exits are primarily linked to burnout caused by excessive monthly hours and high project volume, while under-utilization also increases the risk of attrition. These patterns suggest turnover is not random, but tied to specific workload conditions and engagement gaps.
 
 ## Response & Methodology
 
-The project cleaned and prepared a dataset of 14,999 employee records, removed duplicate entries, and engineered key features relevant to retention risk. A high-precision Random Forest classification model was then trained and evaluated to identify employees most likely to leave before resignation occurs.
+The project cleaned and prepared a dataset of 14,999 employee records, removed duplicate entries, and engineered key features related to retention risk. A high-precision Random Forest classification model was then trained and evaluated to identify employees most likely to leave before resignation occurs.
 
 ## Impact & Model Performance
 
@@ -17,13 +17,13 @@ The model achieved strong predictive performance on the test set:
 - Recall: 92.2%
 - F1-Score: 95.5%
 
-These results indicate the model is highly effective at identifying employees at risk of turnover while keeping false positives low.
+These results show the model is highly effective at identifying employees at risk of turnover while keeping false positives low.
 
 ## Key Insights
 
-1. Workload controls: Establish caps on monthly hours and review project distribution to reduce burnout.
-2. Proactive check-ins: Conduct regular engagement reviews for employees assigned to fewer than 3 or more than 5 projects.
-3. Targeted retention action: Use the model as an early-warning system for HR to identify at-risk employees and offer retention incentives before turnover occurs.
+1. Workload controls: establish caps on monthly hours and review project distribution to reduce burnout.
+2. Proactive check-ins: conduct regular engagement reviews for employees assigned to fewer than 3 or more than 5 projects.
+3. Targeted retention action: use the model as an early-warning system for HR to identify at-risk employees and offer retention incentives before turnover occurs.
 
 ## Business Recommendation
 
